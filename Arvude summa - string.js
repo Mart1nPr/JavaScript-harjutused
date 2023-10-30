@@ -1,17 +1,24 @@
-// Arvude summa - string 23.10.2023
+// Arvude summa - string/array 23.10.2023
 
 
 // Vigane kood
-numbriteSisend = prompt('Kirjuta siia arvud tühikutega, mida liita.');
-arvud = numbriteSisend.split(' ');
-summa = 0;
+const a = ['3 4 12 7 15 6'];
+const numberArray = [];
 
-for (i = 0; i < arvud.lenght; i++){
-    summa += parseInt(arvud[i]);
+for (let i = 0; i < a.length; i++) {
+    if (a[i] !== '') {
+        numberArray.push(a[i])
+    }
 }
 
-console.log('Vastus: ' + summa);
+sum = 0;
 
+for (let i = 0; i < numberArray.length; i++) {
+    sum += numberArray[i];
+}
+
+console.log(numberArray)
+console.log('Summa:', sum)
 
 
 
