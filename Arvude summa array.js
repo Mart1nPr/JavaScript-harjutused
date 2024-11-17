@@ -9,11 +9,5 @@ for(let i = 0; i<=2; i++) {
 for (let i = 0; i<=2; i++) {
 sum = sum + Number(array[i]);
 
-
-
 }
-
-console.log('Vastus:', sum)
-
-
-
+console.log('Vastus: '+ sum);
