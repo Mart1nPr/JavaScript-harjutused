@@ -11,6 +11,10 @@ else if (Weather == "Rainy") {
 else if (Weather == "Cloudy") {
     console.log("The weather is cloudy.")
 }
-else {
-    console.log("This isn't a weather type.")
+else if (Weather == "Stormy") {
+    console.log("The weather is stormy")
 }
+else {
+	console.log("Invalid Weather")
+}
+
